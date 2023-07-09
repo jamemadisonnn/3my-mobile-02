@@ -1,0 +1,61 @@
+/* --- Mobile View --- */
+
+/* Navigation Bar */
+.mobile-navbar {
+    background: #FCFCFC;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.mobile-footer {
+    background: #FCFCFC;
+    padding: 35px;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+
+/* Item Block */
+.mobile-item-box {
+    margin: 0px 35px 10px;
+}
+
+.mobile-project-page-wrapper {
+    padding: 87px 0px 105px;
+}
+
+
+
+
+/* PROJECT PAGE */
+
+.mobile-scroll-camera {
+    overflow: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+  }
+  .mobile-scroll-item {
+      display: inline-block;
+      scroll-snap-align: start;
+  }
+  .mobile-scroll-center {
+      display: flex;
+      justify-content: center;
+  }
+  .mobile-scroll-item-box {
+      width: auto;
+      padding: 0px 35px 0px 35px
+  }
+  .img-mh-100 {
+      max-height: 100%!important;
+  }
